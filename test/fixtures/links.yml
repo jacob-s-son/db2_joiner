@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  node1_type: MyString
+  node2_type: MyString
+  node1_id: 1
+  node2_id: 1
+
+two:
+  node1_type: MyString
+  node2_type: MyString
+  node1_id: 1
+  node2_id: 1

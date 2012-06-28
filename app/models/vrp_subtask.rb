@@ -1,4 +1,6 @@
 class VrpSubtask < ActiveRecord::Base
+  include LinkableModel
+  
   has_many :institutions, :through => :vrp_subtask_institution
   belongs_to :vrp_task
   

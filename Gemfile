@@ -6,6 +6,7 @@ gem 'thinking-sphinx', '2.0.12'
 
 gem 'bootstrap-sass-rails'
 gem 'simple_form'
+gem 'haml-rails'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'

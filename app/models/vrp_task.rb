@@ -1,4 +1,6 @@
 class VrpTask < ActiveRecord::Base
+  include LinkableModel
+  
   belongs_to :vrp_category
   has_many :vrp_subtasks
   
