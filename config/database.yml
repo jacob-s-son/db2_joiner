@@ -1,0 +1,30 @@
+development:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: db2_joiner_dev
+  pool: 5
+  username: db2_joiner_dev
+  password: db2_joiner_dev
+  host: localhost
+  port: 3306
+
+test:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: db2_joiner_test
+  pool: 5
+  username: root
+  password:
+  socket: /tmp/mysql.sock
+
+production:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: db2_joiner_production
+  pool: 5
+  username: root
+  password:
+  socket: /tmp/mysql.sock
