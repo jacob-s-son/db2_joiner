@@ -5,4 +5,8 @@ class DeclarationStatement < ActiveRecord::Base
   define_index do
     indexes body
   end
+  
+  def as_json
+    { "data" => body }
+  end
 end

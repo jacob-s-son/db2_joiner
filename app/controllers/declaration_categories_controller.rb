@@ -1,5 +1,5 @@
 class DeclarationCategoriesController < ApplicationController
   def index
-    render :text => "works"
+    @categories = DeclarationCategory.main
   end
 end
